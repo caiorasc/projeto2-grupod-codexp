@@ -4,18 +4,12 @@
     box-sizing: border-box;
 }
 
-header {
+.nav__wire {
     width: 100%;
     height: auto;
 }
 
-.header  {
-
-}
-
-.barra {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+.nav__wire img {
+    width: 10%;
+    height: auto;
 }
