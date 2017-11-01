@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-nav {
+header {
     width: 100%;
     height: auto;
+}
+
+.header  {
+
 }
 
 .barra {
