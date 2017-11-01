@@ -19,6 +19,7 @@
 .hexagon {
     width: 10%;
     height: auto;
+    float: right;
 }
 
 .cart_icon {
