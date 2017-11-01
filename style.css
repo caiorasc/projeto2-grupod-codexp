@@ -9,7 +9,7 @@
     height: auto;
 }
 
-.nav__wire div {
+div {
     width: 35px;
     height: 5px;
     background-color: black;
