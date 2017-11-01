@@ -10,6 +10,7 @@
 }
 
 .nav__wire div {
+    padding: 10px;
     width: 35px;
     height: 5px;
     background-color: black;
@@ -17,11 +18,11 @@
 }
 
 .hexagon {
-    width: 50%;
+    width: 20%;
     height: auto;
 }
 
 .cart_icon {
-    width: 50%;
+    width: 20%;
     height: auto;
 }
