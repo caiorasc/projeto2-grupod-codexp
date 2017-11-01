@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container {
+    width: 90%;
+    margin: 5%;
+}
+
+/*-----------MOBILE----------*/
+
+.main__descrip {
+    position: relative;
+}
+
+.main__title {
+    margin-bottom: 5%;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.main__subtitle {
+    margin-bottom: 5%;
+    font-size: 0.8em;
+}
+
+.main__price {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 1.5%;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.main__pics {
+    overflow: hidden;
+}
+
+.main__pics-main {
+    width: 100%;
+}
+
+.main__pics-minor img {
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+    display: none;
+}
+
+.main__button {
+    width: 100%;
+    padding: 4%;
+    margin-top: 5%;
+    background: #98B533;
+    border: none;
+    border-radius: 5px;
+}
+
+.main__button i {
+    color: white;
+    font-size: 2em;
+}
+
+/*------------TABLET-----------*/
+
+@media only screen and (min-width: 480px) {
+    .container {
+        overflow: hidden;
+        margin: 6%;
+    }
+
+    .main__descrip {
+        width: 40%;
+        float: right;
+        margin-right: 2%;
+    }
+    
+    .main__title {
+        font-size: 2em;
+    }
+
+    .main__subtitle {
+        font-size: 0.9em;
+    }
+
+    .main__price {
+        top: 140%;
+        left: 42%;
+        font-size: 1.4em;
+    }
+
+    .main__pics {
+        width: 50%;
+        float: left;
+    }
+
+    .main__pics-minor img {
+        display: block;
+    } 
+
+    .main__button {
+        width: 27%;
+        float: right;
+        margin: 25% 8% 0 0;
+    }
+
+}
+
+/*------------DESKTOP-----------*/
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+        margin: 8%;
+    }
+
+    .main__descrip {
+        width: 35%;
+        float: right;
+    }
+
+    .main__title {
+        font-size: 2.5em;
+    }
+
+    .main__subtitle {
+        font-size: 1em;
+    }
+
+    .main__price {
+        top: 150%;
+        left: 45%;
+        font-size: 1.4em;
+    }
+
+    .main__pics {
+        width: 55%;
+        float: left;
+    }
+
+    .main__button {
+        margin: 20% 5% 0 0;
+    }
+
+}
+
+/*------------NOTEBOOK-----------*/
+
+@media only screen and (min-width: 992px) {
+
+    .container {
+        margin: 3%;
+        max-width: 1200px;
+    }
+
+    .main__descrip {
+        margin-right: 0;
+    }
+
+    .main__title {
+        font-size: 2.7em;
+    }
+
+    .main__subtitle {
+        font-size: 1.1em;
+    }
+
+    .main__price {
+        top: 160%;
+        left: 42%;
+        font-size: 1.5em;
+    }
+
+    .main__button {
+        margin: 22% 4% 0 0;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+
+    .container {
+        margin: 3% auto;
+    }
+
+}
