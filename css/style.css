@@ -69,6 +69,20 @@
     color: white;
     font-size: 2em;
 }
+.related{
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+.div__related{
+    width: 95%;
+    padding: 25px 5px;
+    margin: 5px auto;
+    display: block;
+}
+.div__related img{height: 200px;
+    width: 100%;
+}
 
 /*------------TABLET-----------*/
 
@@ -150,6 +164,12 @@
     .main__button {
         margin: 20% 5% 0 0;
     }
+    .div__related{
+        display: inline-block;
+        width: 31.5% ;
+        padding: 5px;
+        margin: 5px;
+    }
 
 }
 
@@ -182,6 +202,11 @@
 
     .main__button {
         margin: 22% 4% 0 0;
+    }
+    .div__related{
+        display: inline-block;
+        width: 31.5% ;
+        padding: 5px;
     }
 
 }
