@@ -18,6 +18,11 @@
 }
 
 .hexagon {
-    width: 10%;
+    width: 50%;
+    height: auto;
+}
+
+.cart_icon {
+    width: 50%;
     height: auto;
 }
