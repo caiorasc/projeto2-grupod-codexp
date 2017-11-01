@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
@@ -79,6 +81,37 @@
     width: 100%;
 }
 
+/*---------------------FOOTER----------------------*/
+.footer{
+    background-color: #505050;
+    font-size: 10px;
+    font-family: 'trebuchet MS', sans-serif;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+.card__footer{
+    width: 50%;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    text-align: center;
+}
+.footer__title{
+    color: #fff;
+    padding-bottom: 10px;
+}
+.footer__links li{
+    padding-bottom: 3px;
+}
+.footer__links li a{
+    color: #ccc;
+}
+
 /*------------TABLET-----------*/
 
 @media only screen and (min-width: 480px) {
@@ -120,6 +153,10 @@
         width: 27%;
         float: right;
         margin: 25% 8% 0 0;
+    }
+    .card__footer{
+        width: 30%;
+        font-size: 1.2em;
     }
 
 }
@@ -165,6 +202,14 @@
         padding: 5px;
         margin: 5px;
     }
+    .card__footer{
+        width: 30%;
+        font-size: 1.2em;
+        padding: 10px 10px;
+    }
+    .footer__container{
+        flex-wrap: nowrap;
+    }
 
 }
 
@@ -203,7 +248,18 @@
         width: 31.5% ;
         padding: 5px;
     }
-
+    .footer__container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .card__footer{
+        width: 15%;
+        font-size: 1.2em;
+        padding: 10px 10px;
+    }
+    .footer{
+        flex-wrap: nowrap;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -211,5 +267,4 @@
     .container {
         margin: 3% auto;
     }
-
 }
