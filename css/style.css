@@ -51,6 +51,11 @@
     display: none;
 }
 
+.main__pics-minor img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+}
+
 .main__button {
     width: 100%;
     padding: 4%;
@@ -181,7 +186,7 @@
 
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
 
     .container {
         margin: 3% auto;
