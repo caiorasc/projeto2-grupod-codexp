@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+section{
+  padding: 10px;
+  width: 100%;
+  position: relative;
+}
+.div__related{
+    width: 95%;
+    padding: 25px 5px;
+    margin: 5px auto;
+    display: block;
+}
+img{height: 200px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .div__related{display: inline-block;
+        
+        width: 31.5% ;
+        padding: 5px;
+        margin: 5px;
+    }
+@media screen and (min-width: 992px) {
+    .div__related{display: inline-block;
+        
+        width: 31.5% ;
+        padding: 5px;
+        margin: 5px;
+    }
+  }
