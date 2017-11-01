@@ -10,7 +10,6 @@
 }
 
 .nav__wire div {
-    margin-left: 5%;
     width: 35px;
     height: 5px;
     background-color: black;
@@ -25,4 +24,5 @@
 .cart_icon {
     width: 20%;
     height: auto;
+    float: right;
 }
