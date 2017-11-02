@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -13,7 +14,7 @@
 .nav__wire1 {
     width: 20%;
     height: auto;
-    padding: 5% 0 0 5%;
+    padding: 15px 0 0 15px;
 }
 
 .nav__wire1 div {
@@ -23,10 +24,14 @@
     margin: 6px 0;
 }
 
+.userbutton {
+    display: none;
+}
+
 .nav__wire2 {
     width: 60%;
     height: auto;
-    padding: 5% 0 0 25%;
+    padding: 15px 0 0 25%;
 }
 
 .hexagon {
@@ -37,10 +42,54 @@
 .nav__wire3 {
     width: 20%;
     height: auto;
-    padding: 5% 0 0 5%;
+    padding: 15px 0 0 15px;
 }
 
 .cart_icon {
     width: 60%;
     height: auto;
+}
+
+@media screen and (min-width: 480px) {
+
+.nav__wire1 {
+    display: none;
+}
+
+.userbutton{
+    width: 20%;
+    display: inline-block;
+}
+
+.usericon {
+    width: 60%;
+    height: auto;
+    padding: 15px 0 0 15px;
+}
+
+.horizontalmenu {
+    width: 80%;
+    height: 10%;
+    margin:0 10%;
+}
+
+.nav__center {
+    width: 100%;
+    
+    padding-left: 4px; 
+}
+
+.nav__center div {
+    width: 15%;
+    margin-top: 5%; 
+    margin-right: calc(20% / 5 );
+    height: 7%;
+    margin-left: -4px;
+    border-radius: 5px;
+    background-color: gray;
+    display: inline-block;
+}
+
+.nav__center div:first-child{
+    margin-left: 4%;
 }
