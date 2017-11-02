@@ -5,6 +5,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+html. body {
+    width: 100%;
+    height: 100%;
+}
+
 .container {
     width: 90%;
     margin: 5%;
@@ -69,19 +74,34 @@
     color: white;
     font-size: 2em;
 }
-.related{
-  padding: 10px;
-  width: 100%;
-  position: relative;
+
+footer {
+    width: 100%;
 }
+
+.related{
+    margin: 5%;
+    position: relative;
+}
+
+.related h2 {
+    font-size: 1.2em;
+}
+
 .div__related{
-    width: 95%;
-    padding: 25px 5px;
-    margin: 5px auto;
+    width: 100%;
+    /*padding: 0 2% 0 0;*/
+    margin: 5% auto;
     display: block;
 }
-.div__related img{height: 200px;
+.div__related img{
+    height: 200px;
     width: 100%;
+}
+
+.div__related h1 {
+    font-size: 1em;
+    margin: 2% 0;
 }
 
 /*------------TABLET-----------*/
