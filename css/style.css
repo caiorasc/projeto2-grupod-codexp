@@ -14,7 +14,7 @@
 .nav__wire1 {
     width: 20%;
     height: auto;
-    padding: 15px 0 0 15px;
+    padding: 25px 0 0 15px;
 }
 
 .nav__wire1 div {
@@ -31,7 +31,7 @@
 .nav__wire2 {
     width: 60%;
     height: auto;
-    padding: 15px 25% 0 25%;
+    padding: 25px 25% 0 25%;
 
 }
 
@@ -44,7 +44,7 @@
 .nav__wire3 {
     width: 20%;
     height: auto;
-    padding: 15px 0 0 15px;
+    padding: 25px 0 0 15px;
 }
 
 .cart_icon {
@@ -66,7 +66,7 @@
 .usericon {
     max-width: 30px;
     height: auto;
-    margin: 15px 0 0 15px;
+    margin: 25px 0 0 15px;
 }
 
 .hexagon {
@@ -94,9 +94,9 @@
 
 .nav__center div {
     width: 15%;
-    margin-top: 5%; 
+    margin-top: 35px; 
     margin-right: calc(20% / 5 );
-    height: 7%;
+    height: 5px;
     margin-left: -4px;
     border-radius: 5px;
     background-color: gray;
