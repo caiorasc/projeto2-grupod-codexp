@@ -3,3 +3,34 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.section__progress {
+	width: 100%;
+	height: auto;
+	padding: 3%;
+	color: gray;
+	border: 1px solid black;
+}
+
+.barra {
+	width: 5%;
+	height: 4px;
+	background-color: darkorange;
+	margin-bottom: 10px;
+}
+
+.section__progress h1 {
+	text-transform: uppercase;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	margin-bottom: 30px; 
+}
+
+.section__progress h3 {
+	font-family: Arial, sans-serif;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.section__progress p {
+	font-family: 'Arial', sans-serif;
+}
