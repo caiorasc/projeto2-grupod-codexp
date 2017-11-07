@@ -31,12 +31,14 @@
 .nav__wire2 {
     width: 60%;
     height: auto;
-    padding: 15px 0 0 25%;
+    padding: 15px 25% 0 25%;
+
 }
 
 .hexagon {
     width: 50px;
     height: auto;
+
 }
 
 .nav__wire3 {
@@ -62,9 +64,9 @@
 }
 
 .usericon {
-    max-width: 50px;
+    max-width: 30px;
     height: auto;
-    padding: 15px 0 0 15px;
+    margin: 15px 0 0 15px;
 }
 
 .hexagon {
@@ -75,12 +77,8 @@
 .cart_icon {
     width: 40px;
     height: auto;
-}
-
-.nav__wire3 {
-    width: 20%;
-    height: auto;
-    padding: 15px 0 0 48px;
+    position: absolute;
+    right: 20px; 
 }
 
 .horizontalmenu {
@@ -91,7 +89,6 @@
 
 .nav__center {
     width: 100%;
-    
     padding-left: 4px; 
 }
 
@@ -110,22 +107,8 @@
     margin-left: 4%;
 }
 
-@media screen and (min-width: 992px) {
-
 .nav__wire3 {
     width: 20%;
     height: auto;
-    padding: 15px 0 0 120px;
-}
-
-}
-
-@media screen and (min-width: 1200px) {
-
-.nav__wire3 {
-    width: 20%;
-    height: auto;
-    padding: 15px 0 0 150px;
-}
-
+    position: relative;
 }
