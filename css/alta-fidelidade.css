@@ -3,3 +3,30 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.header__back {
+	background-image: url('../img/altfid-background.png');
+	background-position-x: right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header__container {
+	padding: 5%;
+	color: white;
+	text-shadow: 1px 1px 5px black;
+}
+
+.header__menu {
+	overflow: hidden;
+	margin: 5% 0 5% 0;
+	padding: 5% 0 5% 0;
+	border-top: 0.5px solid white;
+	border-bottom: 0.5px solid white;
+}
+
+.header__menu-item {
+	float: left;
+	margin-right: 5%;
+}
