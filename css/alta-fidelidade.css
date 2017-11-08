@@ -128,6 +128,10 @@
 		width: 25%;
 	}
 
+	.header__title {
+		font-size: 3em;
+	}
+
 	.header__button {
 		margin: 3% 0;
 		padding: 1.5% 5% 1.5% 5%;
