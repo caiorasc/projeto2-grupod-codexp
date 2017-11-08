@@ -20,18 +20,18 @@
 
 .section__progress h1 {
 	text-transform: uppercase;
-	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	margin-bottom: 30px; 
 }
 
 .section__progress h3 {
-	font-family: Arial, sans-serif;
+	font-family: 'Lora';
 	font-style: italic;
 	margin-bottom: 20px;
 }
 
 .section__progress p {
-	font-family: 'Arial', sans-serif;
+	font-family: 'Lora';
 	margin-bottom: 20px;
 }
 
