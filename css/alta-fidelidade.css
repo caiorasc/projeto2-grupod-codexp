@@ -3,28 +3,37 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: 'Lora';
+	line-height: 1.7em;
+}
 .container{
 	width: 95%;
 	margin: 0 auto;
 }
+
 .sobre{
 	display: inline-block;
 }
+
 .sobre article{
 	margin: 0 auto;
 	padding: 0 10px;
 }
+
 .sobre__title{
 	margin: 0 0 20px 0;
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	opacity: 0.5;
 }
+
 .sobre p{
 	line-height: 1.7em;
 	opacity: 0.7;
 }
-.sobre hr{
+
+.linha{
 	width: 10%;
 	height: 7px;
 	margin: 30px 0 10px 0;
@@ -32,15 +41,119 @@
 	border: none;
 	border-radius: 7px;
 }
+
 .sobre__img{
 	display: block;
 	margin: 50px auto;
 	opacity: 0.5;
 }
+
 .sobre__img2{
 	display: block;
 	margin: 40px auto;
 	opacity: 0.5;
+}
+
+.section__progress {
+	color: gray;
+	padding: 10px;
+}
+
+.section__progress h1 {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	margin-bottom: 30px; 
+}
+
+.section__progress h3 {
+	
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.section__progress p {
+	margin-bottom: 20px;
+}
+
+.boxprogress1 {
+	width: 100%;
+}
+
+.boxprogress2 {
+	width: 100%;
+}
+
+.progressbar {
+	background-color: #F1F1F1;
+	margin-bottom: 8px; 
+	border-radius: 15px;
+	line-height: 1em;
+}
+
+.progressbar1 {
+	width: 98%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar2 {
+	width: 80%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar3 {
+	width: 70%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar4 {
+	width: 92%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar5 {
+	width: 93%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar6 {
+	width: 96%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,4 +161,17 @@
 		display: flex;
 		flex-direction: row;
 	}
+	.boxprogress1 {
+		width: 60%;
+		float: left;
+	}
+
+	.boxprogress2 {
+		width: 36%;
+		float: right;
+
+	}
 }
+
+
+
