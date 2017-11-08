@@ -8,6 +8,12 @@ body{
 	line-height: 1.7em;
 }
 
+footer{
+	background-color: #ff5005;
+	margin-top: 20px;
+	padding: 30px 0;
+}
+
 .header__back {
 	background-image: url('../img/backgr.jpg');
 	background-position-x: left;
@@ -86,6 +92,7 @@ body{
 
 .sobre{
 	display: inline-block;
+	margin-top: 20px;
 }
 
 .sobre article{
@@ -129,6 +136,7 @@ body{
 .section__progress {
 	color: gray;
 	padding: 10px;
+	overflow: hidden;
 }
 
 .section__progress h1 {
@@ -228,6 +236,42 @@ body{
 	border-radius: 15px;
 }
 
+.p__footer{
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	text-align: center;
+
+}
+.p__footer i{
+	display: inline-block;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 2em;
+
+}
+
+.div__footer ul , li {
+	display: inline;
+}
+.ul__footer a{
+	padding: 5px;
+	text-decoration: none;
+	font-size: 1em;
+	color: #ffffff;
+}
+
+.div__footer{
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+
+}
+
 /*------------TABLET-----------*/
 
 
@@ -302,5 +346,14 @@ body{
 	}
 	.header__text{
 		max-width: 768px;
+	}
+	.div__footer{
+		width: 40%;
+	}
+	.p__footer i{
+		font-size: 2.5em;
+	}
+	.ul__footer a{
+		padding: 10px;
 	}
 }
