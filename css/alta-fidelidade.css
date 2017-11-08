@@ -7,15 +7,14 @@
 .section__progress {
 	width: 100%;
 	height: auto;
-	padding: 3%;
+	padding: 5% 5%;
 	color: gray;
-	border: 1px solid black;
 }
 
-.barra {
-	width: 5%;
+.linhalaranja {
+	width: 4%;
 	height: 4px;
-	background-color: darkorange;
+	background-color: #FF5005;
 	margin-bottom: 10px;
 }
 
@@ -28,9 +27,104 @@
 .section__progress h3 {
 	font-family: Arial, sans-serif;
 	font-style: italic;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
 .section__progress p {
 	font-family: 'Arial', sans-serif;
+	margin-bottom: 20px;
+}
+
+.boxprogress1 {
+	width: 100%;
+}
+
+.boxprogress2 {
+	width: 100%;
+}
+
+.progressbar {
+	background-color: #F1F1F1;
+	margin-bottom: 8px; 
+	border-radius: 15px;
+}
+
+.progressbar1 {
+	width: 98%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar2 {
+	width: 80%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar3 {
+	width: 70%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar4 {
+	width: 92%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar5 {
+	width: 93%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+.progressbar6 {
+	width: 96%;
+	height: 18px;
+	font-family: Arial, sans-serif;
+	font-size: 10pt; 
+	color: #FFFFFF;
+	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
+	padding: 2px 0 0 8px;
+	border-radius: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+	
+	.boxprogress1 {
+	width: 60%;
+	float: left;
+}
+
+	.boxprogress2 {
+	width: 36%;
+	float: right;
+
+}
 }
