@@ -6,8 +6,8 @@
 }
 
 .header__back {
-	background-image: url('../img/altfid-background.png');
-	background-position-x: 60%;
+	background-image: url('../img/backgr.jpg');
+	background-position-x: left;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -17,7 +17,7 @@
 	height: 100%;
 	padding: 5%;
 	color: white;
-	text-shadow: 1px 1px 5px black;
+	text-shadow: 2px 2px 6px black;
 }
 
 .header__logo {
@@ -66,7 +66,7 @@
 	padding: 4% 7% 4% 7%;
 	border: none;
 	border-radius: 20px;
-	box-shadow: 1px 1px 5px black;
+	box-shadow: 2px 2px 6px black;
 	background: linear-gradient(to bottom, #FFAC6F, #FF5005);
 	color: white;
 	font-family: 'Arial', sans-serif;
@@ -80,10 +80,6 @@
 
 
 @media only screen and (min-width: 480px) {
-
-	.header__back {
-		background-position-x: 70%;
-	}
 	
 	.header__menu {
 		padding: 2.5% 0;
@@ -103,10 +99,6 @@
 /*------------DESKTOP-----------*/
 
 @media only screen and (min-width: 768px) {
-
-	.header__back {
-		background-position-x: 85%;
-	}
 
 	.header__top {
 		overflow: hidden;
